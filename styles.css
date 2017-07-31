@@ -1,0 +1,24 @@
+#rainbow{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: HERCULANUM;
+}
+.clock{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16vw;
+  margin-bottom: 2vw;
+}
+.clock:hover{
+
+}
+div{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.progress{
+  background-color: #FFFFFF;
+  height: 1vw;
+  width:0;
+}
