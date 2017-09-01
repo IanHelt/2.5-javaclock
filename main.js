@@ -12,6 +12,11 @@ var background = document.getElementById('rainbow');
   function time(){
 
   var startTime = Date.now();
+  if (!Date.now) {
+  Date.now = function now() {
+    return new Date().getTime();
+  };
+}
   var paddedHour;
   var paddedMinute;
   var paddedSecond;
